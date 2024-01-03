@@ -1,0 +1,11 @@
+.subscription {
+    position: absolute;
+    top: -120px;
+    right: 200px;
+}
+
+.subscription div li i {
+    display: inline-block;
+    margin-right: 10px;
+
+}

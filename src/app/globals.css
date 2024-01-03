@@ -16,12 +16,28 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar..... */
+.nav a {
+  transition: all 0.3s;
+  padding: 5px 30px;
+}
+
+.nav a:hover,
+.nav .active {
+  border-bottom: solid 5px rgb(89, 22, 245);
+}
+
+.bottom .icon a {
+  display: flex;
+  place-items: center;
+}
+
+.bottom .icon i {
+  margin-right: 10px;
 }
